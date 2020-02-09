@@ -1,5 +1,7 @@
-describe('SampleSuite', () => {
-  it('runs a sample test', () => {
-    expect(true).toEqual(true);
+import { greet } from "./app";
+
+describe('AppSuite', () => {
+  it('returns greetings', () => {
+    expect(greet()).toEqual('Hello World');
   })
 });
