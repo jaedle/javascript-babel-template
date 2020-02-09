@@ -1,0 +1,23 @@
+{
+  "name": "javascript-babel-template",
+  "version": "1.0.0",
+  "description": "template for javascript application with babel",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaedle/javascript-babel-template.git"
+  },
+  "keywords": [],
+  "author": "Dennis Jekubczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaedle/javascript-babel-template/issues"
+  },
+  "homepage": "https://github.com/jaedle/javascript-babel-template#readme"
+}
