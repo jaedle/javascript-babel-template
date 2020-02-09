@@ -4,10 +4,19 @@
   "description": "template for javascript application with babel",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^25.1.0"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "jest": "^25.1.0",
+    "rimraf": "^3.0.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "clean": "rimraf dist/",
+    "prebuild": "npm -s run clean",
+    "build": "babel src -d dist/",
+    "prestart": "npm -s run build",
+    "start": "bin/app.js"
   },
   "repository": {
     "type": "git",
