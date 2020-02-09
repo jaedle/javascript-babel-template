@@ -6,8 +6,8 @@ Provide a template project using es2015 by transpiling with babel to use a cli/s
 
 ## Tools
 
-- testing: [jest](https://jestjs.io/)
 - transpiling: [babel](https://babeljs.io/)
+- testing: [jest](https://jestjs.io/)
 
 ## project layout
 
