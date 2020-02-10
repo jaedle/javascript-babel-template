@@ -19,8 +19,8 @@
     "build": "babel src -d dist/",
     "prestart": "npm -s run build",
     "start": "bin/cli.js",
-    "format": "prettier --check 'src/**/*.js'",
-    "format:fix": "prettier --write 'src/**/*.js'"
+    "format": "prettier --check 'src/**/*.js' '**/*.json' '**/*.js'",
+    "format:fix": "prettier --write 'src/**/*.js' '**/*.json' '**/*.js'"
   },
   "repository": {
     "type": "git",
