@@ -39,9 +39,15 @@ The `bin/` folder contains the single script `bin/cli.js` to start your applicat
 
 ### Linting
 
+[eslint](https://eslint.org/) with [eslint-config-airbnb-base](https://github.com/airbnb/javascript) is used to to lint this project.
+
 - Use `npm run lint` to check if your source-code is linted
 - Use `npm run lint:fix` to lint your source-code
 
 ### Starting the app
 
 - Use `npm run start` to start your application
+
+### Do everything after another
+
+- Use `npm run world` to test, lint, format and start
