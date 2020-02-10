@@ -8,6 +8,7 @@ Provide a template project using es2015 by transpiling with babel to use a cli/s
 
 - transpiling: [babel](https://babeljs.io/)
 - testing: [jest](https://jestjs.io/)
+- formatting: [prettier](https://prettier.io/)
 
 ## project layout
 
@@ -19,7 +20,6 @@ src/        source-code,tests
 
 The `bin/` folder contains the single script `bin/cli.js` to start your application. It executes the method `default` exported by the file `src/main.js`
 
-
 ## Usage
 
 ### Install dependencies
@@ -30,6 +30,11 @@ The `bin/` folder contains the single script `bin/cli.js` to start your applicat
 
 - Use `npm run test` to single run your tests
 - Use `npm run test:watch` to use jest test watch feature
+
+### Applying format
+
+- Use `npm run format` to check if your source-code is formatted correctly
+- Use `npm run test:fix` to format your source-code
 
 ### Starting the app
 
