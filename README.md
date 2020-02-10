@@ -20,7 +20,7 @@ bin/                contains executable
 dist/               <temporary> distribution folder
 src/                source-code and tests
 .eslintrc.json      eslint configuration
-.jest.config.json   jest configuration
+jest.config.json    jest configuration
 babel.config.json   babel configuration
 ```
 
