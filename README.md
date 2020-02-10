@@ -14,9 +14,14 @@ Provide a template project using es2015 by transpiling with babel to use a cli/s
 ## project layout
 
 ```txt
-bin/        contains executable
-dist/       <temporary> build folder
-src/        source-code,tests
+.dependabot/        configuration for dependabot (automatic dependecy updates)
+.github/            github workflow configuration
+bin/                contains executable
+dist/               <temporary> distribution folder
+src/                source-code and tests
+.eslintrc.json      eslint configuration
+.jest.config.json   jest configuration
+babel.config.json   babel configuration
 ```
 
 The `bin/` folder contains the single script `bin/cli.js` to start your application. It executes the method `default` exported by the file `src/main.js`
