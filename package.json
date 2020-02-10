@@ -7,9 +7,15 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.7.0",
     "jest": "^25.1.0",
     "prettier": "1.19.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^3.7.5"
   },
   "scripts": {
     "test": "jest",
@@ -20,7 +26,10 @@
     "prestart": "npm -s run build",
     "start": "bin/cli.js",
     "format": "prettier --check 'src/**/*.js' '**/*.json' '**/*.js' '**/*.yml'",
-    "format:fix": "prettier --write 'src/**/*.js' '**/*.json' '**/*.js' '**/*.yml'"
+    "format:fix": "prettier --write 'src/**/*.js' '**/*.json' '**/*.js' '**/*.yml'",
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint --fix 'src/**/*.js'",
+    "world": "npm run lint:fix && npm run format:fix && npm run test && npm run start"
   },
   "repository": {
     "type": "git",

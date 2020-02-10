@@ -1,7 +1,7 @@
-import { greet } from "./app";
+import * as app from "./app";
 
 describe("AppSuite", () => {
   it("returns greetings", () => {
-    expect(greet()).toEqual("Hello World");
+    expect(app.default()).toEqual("Hello World");
   });
 });

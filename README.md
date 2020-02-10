@@ -9,6 +9,7 @@ Provide a template project using es2015 by transpiling with babel to use a cli/s
 - transpiling: [babel](https://babeljs.io/)
 - testing: [jest](https://jestjs.io/)
 - formatting: [prettier](https://prettier.io/)
+- linting: [eslint](https://eslint.org/)
 
 ## project layout
 
@@ -35,6 +36,11 @@ The `bin/` folder contains the single script `bin/cli.js` to start your applicat
 
 - Use `npm run format` to check if your source-code is formatted correctly
 - Use `npm run test:fix` to format your source-code
+
+### Linting
+
+- Use `npm run lint` to check if your source-code is linted
+- Use `npm run lint:fix` to lint your source-code
 
 ### Starting the app
 

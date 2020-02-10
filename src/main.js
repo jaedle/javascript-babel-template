@@ -1,5 +1,6 @@
-import { greet } from "./app";
+import * as app from "./app";
 
 export default function() {
-  console.log(greet());
+  // eslint-disable-next-line no-console
+  console.log(app.default());
 }
