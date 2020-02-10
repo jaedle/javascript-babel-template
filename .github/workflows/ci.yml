@@ -12,10 +12,10 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: "12"
       - run: npm ci
-      - run: npm format
-      
+      - run: npm run format
+
   test:
     runs-on: ubuntu-16.04
     steps:
@@ -23,6 +23,6 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: "12"
       - run: npm ci
-      - run: npm test
+      - run: npm run test
