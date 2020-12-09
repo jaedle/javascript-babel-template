@@ -4,7 +4,7 @@
   "description": "template for javascript application with babel",
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.12.8",
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@types/jest": "^26.0.18",
